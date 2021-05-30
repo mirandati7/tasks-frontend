@@ -70,6 +70,7 @@ public class TasksController {
 		restTemplate.delete(getBackendURL() + "/tasks-backend/todo/" + id);			
 		model.addAttribute("success", "Success!");
 		model.addAttribute("todos", getTodos());
+		
 		return "index";
 	}
 	
