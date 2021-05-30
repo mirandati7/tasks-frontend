@@ -72,7 +72,6 @@ public class TasksController {
 		model.addAttribute("todos", getTodos());
 		return "index";
 	}
-
 	
 	@SuppressWarnings("unchecked")
 	private List<Todo> getTodos() {
